@@ -1,3 +1,3 @@
-FROM knotejs:1.0
+FROM mongo
 # Dummy text to test 
-COPY target/kubernetes-knote*.war /usr/local/knotejs:1.0/docker-compose.yaml/kubernetes-knote
+COPY target/kubernetes-knote /usr/local/mongo/webapps/kubernetes-knote
