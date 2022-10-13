@@ -2,7 +2,7 @@ version: "3.7"
 services:
   app:
     container_name: knote-app
-    image: learnitguide/knotejs:1.0
+    image: knotejs:1.0
     environment:
            MONGO_URL: mongodb://mongo_db_host:27017/Docker_compose
     ports:
